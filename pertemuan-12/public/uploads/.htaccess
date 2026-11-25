@@ -1,0 +1,5 @@
+# Folder upload hanya untuk gambar. Jangan izinkan file script dijalankan.
+<FilesMatch "\.(php|phtml|phar|php\d|pl|py|cgi|sh)$">
+    Require all denied
+</FilesMatch>
+Options -ExecCGI -Indexes
