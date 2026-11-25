@@ -1,10 +1,10 @@
-# ShopEase – Transaksi dan Admin (CodeIgniter 4)
+# ShopEase – Transaksi & Admin
 
 **Tugas Pertemuan 12 – Pemrograman Berbasis Kerangka Kerja (PBKK)**
 
 | | |
 | :-- | :-- |
-| Mata kuliah | Pemrograman Berbasis Kerangka Kerja (PBKK) / Web Framework |
+| Mata kuliah | Pemrograman Berbasis Kerangka Kerja (PBKK) |
 | Pertemuan | 12 |
 | Proyek | ShopEase – Online Store |
 | Framework | CodeIgniter 4 |
