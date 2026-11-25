@@ -8,8 +8,8 @@
 | Pertemuan | 11 |
 | Studi kasus | ShopEase – Online Store |
 | Framework | CodeIgniter 4 |
-| Nama | *Andie Azril Alfrianto* |
-| NRP | *5025241054* |
+| Nama | Andie Azril Alfrianto |
+| NRP | 5025241054 |
 
 ## Penjelasan tugas
 
@@ -105,18 +105,18 @@ Akun customer baru bisa dibuat lewat `/register`. Akun admin dan operator hanya 
 
 | Method | URL | Controller | Akses | Status |
 | :-- | :-- | :-- | :-- | :-- |
-| GET | `/` | `HomeController::index` | Publik | ✅ Berfungsi |
-| GET | `/catalog` | `ProductController::catalog` | Publik | ✅ Berfungsi |
-| GET | `/product/(:num)` | `ProductController::detail/$1` | Publik | ✅ Berfungsi |
-| GET / POST | `/register` | `AuthController::register` / `store` | Publik | ✅ Berfungsi |
-| GET / POST | `/login` | `AuthController::login` / `attempt` | Publik | ✅ Berfungsi |
-| POST | `/logout` | `AuthController::logout` | `auth` | ✅ Berfungsi |
+| GET | `/` | `HomeController::index` | Publik | Berfungsi |
+| GET | `/catalog` | `ProductController::catalog` | Publik |  Berfungsi |
+| GET | `/product/(:num)` | `ProductController::detail/$1` | Publik |  Berfungsi |
+| GET / POST | `/register` | `AuthController::register` / `store` | Publik |  Berfungsi |
+| GET / POST | `/login` | `AuthController::login` / `attempt` | Publik |  Berfungsi |
+| POST | `/logout` | `AuthController::logout` | `auth` |  Berfungsi |
 | GET | `/cart` | `CartController::index` | `auth:customer` | Kerangka |
 | POST | `/cart/add` | `CartController::add` | `auth:customer` | Validasi jalan, penyimpanan menyusul |
 | GET | `/checkout` | `CheckoutController::index` | `auth:customer` | Kerangka |
 | GET | `/orders` | `OrderController::index` | `auth:customer` | Kerangka |
 | GET | `/orders/(:num)` | `OrderController::detail/$1` | `auth:customer` | Kerangka |
-| GET | `/admin/dashboard` | `Admin\DashboardController::index` | `auth:admin,operator` | ✅ Berfungsi |
+| GET | `/admin/dashboard` | `Admin\DashboardController::index` | `auth:admin,operator` |  Berfungsi |
 | GET | `/admin/orders` | `Admin\OrderController::index` | `auth:admin,operator` | Kerangka |
 | GET | `/admin/products` | `Admin\ProductController::index` | `auth:admin` | Daftar jalan, CRUD menyusul |
 
@@ -174,22 +174,22 @@ Diuji dengan request HTTP sungguhan ke aplikasi yang berjalan (CodeIgniter 4.7.6
 
 | No. | Skenario | Hasil |
 | :-- | :-- | :-- |
-| 1 | `/catalog` tanpa filter | ✅ 15 produk aktif, 8 per halaman, halaman 2 berisi 7, produk nonaktif tidak muncul |
-| 2 | Cari `kaos` | ✅ Hanya Kaos Katun Basic |
-| 3 | Filter `fashion` | ✅ 3 produk aktif |
-| 4 | Elektronik urut termurah / semua urut termahal | ✅ Urutan harga benar |
-| 5 | Filter + sort + keyword lalu pindah halaman | ✅ Filter tetap terbawa |
-| 6 | Kata kunci tanpa hasil, atau berisi `<script>` | ✅ Pesan "Tidak ada produk yang cocok", input di-escape |
-| 7 | Detail produk aktif / nonaktif / tidak ada / id bukan angka | ✅ 200 / 404 / 404 / 404 |
-| 8 | Detail produk stok habis | ✅ Tombol keranjang dinonaktifkan |
-| 9 | Tambah ke keranjang: jumlah valid / melebihi stok / 0 / produk nonaktif | ✅ Lolos / "Stok tidak mencukupi" / "Jumlah tidak valid" / ditolak |
-| 10 | Tamu menekan Tambah ke keranjang | ✅ Ke login, setelah login kembali ke halaman produk |
-| 11 | Customer membuka `/cart`, `/checkout`, `/orders`, `/orders/5` | ✅ 200 |
-| 12 | Customer membuka `/admin/dashboard`, `/admin/products`, `/admin/orders` | ✅ Ditolak |
-| 13 | Admin membuka `/admin/products`, `/admin/orders`; membuka `/cart` | ✅ 200, 200; `/cart` ditolak |
-| 14 | Operator membuka `/admin/orders`; membuka `/admin/products` | ✅ 200; produk ditolak, menu Produk tidak tampil |
-| 15 | Registrasi, login, logout, CSRF, throttle (dari pengujian autentikasi) | ✅ 28/28 lulus |
-| 16 | Landing page setelah pindah ke database | ✅ Tampil sama, 4 produk terlaris dari tabel `products` |
+| 1 | `/catalog` tanpa filter |  15 produk aktif, 8 per halaman, halaman 2 berisi 7, produk nonaktif tidak muncul |
+| 2 | Cari `kaos` |  Hanya Kaos Katun Basic |
+| 3 | Filter `fashion` |  3 produk aktif |
+| 4 | Elektronik urut termurah / semua urut termahal |  Urutan harga benar |
+| 5 | Filter + sort + keyword lalu pindah halaman |  Filter tetap terbawa |
+| 6 | Kata kunci tanpa hasil, atau berisi `<script>` |  Pesan "Tidak ada produk yang cocok", input di-escape |
+| 7 | Detail produk aktif / nonaktif / tidak ada / id bukan angka |  200 / 404 / 404 / 404 |
+| 8 | Detail produk stok habis |  Tombol keranjang dinonaktifkan |
+| 9 | Tambah ke keranjang: jumlah valid / melebihi stok / 0 / produk nonaktif |  Lolos / "Stok tidak mencukupi" / "Jumlah tidak valid" / ditolak |
+| 10 | Tamu menekan Tambah ke keranjang |  Ke login, setelah login kembali ke halaman produk |
+| 11 | Customer membuka `/cart`, `/checkout`, `/orders`, `/orders/5` |  200 |
+| 12 | Customer membuka `/admin/dashboard`, `/admin/products`, `/admin/orders` |  Ditolak |
+| 13 | Admin membuka `/admin/products`, `/admin/orders`; membuka `/cart` |  200, 200; `/cart` ditolak |
+| 14 | Operator membuka `/admin/orders`; membuka `/admin/products` |  200; produk ditolak, menu Produk tidak tampil |
+| 15 | Registrasi, login, logout, CSRF, throttle (dari pengujian autentikasi) |  28/28 lulus |
+| 16 | Landing page setelah pindah ke database |  Tampil sama, 4 produk terlaris dari tabel `products` |
 
 ## Screenshot
 
