@@ -1,12 +1,12 @@
 # ShopEase – Authentication & MVC
 
-**Tugas Pertemuan 11 – Pemrograman Berbasis Kerangka Kerja (PBKK)**
+**Tugas Pertemuan 11**
 
 | | |
 | :-- | :-- |
 | Mata kuliah | Pemrograman Berbasis Kerangka Kerja (PBKK) |
 | Pertemuan | 11 |
-| Studi kasus | ShopEase – Online Store |
+| Studi kasus | ShopEase |
 | Framework | CodeIgniter 4 |
 | Nama | Andie Azril Alfrianto |
 | NRP | 5025241054 |

@@ -1,12 +1,12 @@
-# ShopEase – Landing Page (CodeIgniter 4)
+# ShopEase – Landing Page
 
-**Tugas Pertemuan 10 – Pemrograman Berbasis Kerangka Kerja (PBKK)**
+**Tugas Pertemuan 10**
 
 | | |
 | :-- | :-- |
 | Mata kuliah | Pemrograman Berbasis Kerangka Kerja (PBKK) |
 | Pertemuan | 10 |
-| Studi kasus | ShopEase – Online Store |
+| Studi kasus | ShopEase |
 | Framework | CodeIgniter 4 |
 | Nama | *Andie Azril Alfrianto* |
 | NRP | *5025241054* |

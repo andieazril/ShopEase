@@ -1,12 +1,12 @@
 # ShopEase – Transaksi & Admin
 
-**Tugas Pertemuan 12 – Pemrograman Berbasis Kerangka Kerja (PBKK)**
+**Tugas Pertemuan 12**
 
 | | |
 | :-- | :-- |
 | Mata kuliah | Pemrograman Berbasis Kerangka Kerja (PBKK) |
 | Pertemuan | 12 |
-| Proyek | ShopEase – Online Store |
+| Proyek | ShopEase |
 | Framework | CodeIgniter 4 |
 | Nama | Andie Azril Alfrianto |
 | NRP | 5025241054 |
