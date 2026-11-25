@@ -1,4 +1,4 @@
-# ShopEase – Transaksi, Admin, dan Laporan (CodeIgniter 4)
+# ShopEase – Transaksi dan Admin (CodeIgniter 4)
 
 **Tugas Pertemuan 12 – Pemrograman Berbasis Kerangka Kerja (PBKK)**
 
