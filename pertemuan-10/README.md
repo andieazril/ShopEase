@@ -4,7 +4,7 @@
 
 | | |
 | :-- | :-- |
-| Mata kuliah | Pemrograman Berbasis Kerangka Kerja (PBKK) / Web Framework |
+| Mata kuliah | Pemrograman Berbasis Kerangka Kerja (PBKK) |
 | Pertemuan | 10 |
 | Studi kasus | ShopEase – Online Store |
 | Framework | CodeIgniter 4 |
