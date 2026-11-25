@@ -1,10 +1,10 @@
-# ShopEase – Authentication & MVC (CodeIgniter 4)
+# ShopEase – Authentication & MVC
 
 **Tugas Pertemuan 11 – Pemrograman Berbasis Kerangka Kerja (PBKK)**
 
 | | |
 | :-- | :-- |
-| Mata kuliah | Pemrograman Berbasis Kerangka Kerja (PBKK) / Web Framework |
+| Mata kuliah | Pemrograman Berbasis Kerangka Kerja (PBKK) |
 | Pertemuan | 11 |
 | Studi kasus | ShopEase – Online Store |
 | Framework | CodeIgniter 4 |
