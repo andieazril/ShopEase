@@ -8,8 +8,8 @@
 | Pertemuan | 10 |
 | Studi kasus | ShopEase – Online Store |
 | Framework | CodeIgniter 4 |
-| Nama | *(isi nama)* |
-| NRP | *(isi NRP)* |
+| Nama | *Andie Azril Alfrianto* |
+| NRP | *5025241054* |
 
 ## Penjelasan tugas
 
