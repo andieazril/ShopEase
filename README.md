@@ -1,13 +1,10 @@
-# ShopEase – Online Store
+# ShopEase
 
-ShopEase adalah aplikasi toko online berbasis web yang dibangun dengan **CodeIgniter 4** dan **MySQL**. Customer dapat:
+ShopEase adalah aplikasi toko online berbasis web yang dibangun dengan **CodeIgniter 4** dan **MySQL**. Aplikasi ini memiliki tiga jenis pengguna:
 
-- mencari produk dan memasukkannya ke keranjang,
-- checkout,
-- membayar lewat transfer bank dengan mengunggah bukti transfer,
-- memantau pesanan sampai paket diterima.
-
-Admin mengelola katalog, memverifikasi pembayaran, dan melihat laporan penjualan. Operator memproses pengiriman dan memperbarui stok.
+- **Customer**: mencari produk, memasukkannya ke keranjang, checkout, membayar lewat transfer bank dengan mengunggah bukti transfer, lalu memantau pesanan sampai paket diterima.
+- **Admin**: mengelola katalog, memverifikasi pembayaran, dan melihat laporan penjualan.
+- **Operator**: memproses pengiriman dan memperbarui stok.
 
 Proyek ini dikerjakan untuk mata kuliah **Pemrograman Berbasis Kerangka Kerja (PBKK)**.
 
@@ -16,7 +13,7 @@ Proyek ini dikerjakan untuk mata kuliah **Pemrograman Berbasis Kerangka Kerja (P
 | Nama | Andie Azril Alfrianto |
 | NRP | 5025241054 |
 
-![Beranda ShopEase](screenshots/01-beranda.png)
+![Beranda ShopEase](pertemuan-10/screenshots/01-home-hero.png)
 
 ## Daftar isi
 
@@ -302,54 +299,54 @@ Rincian setiap skenario ada di README pertemuan masing-masing.
 
 **Beranda**
 
-![Beranda](screenshots/01-beranda.png)
+![Beranda](pertemuan-10/screenshots/01-home-hero.png)
 
 **Katalog produk**
 
-![Katalog](screenshots/02-katalog.png)
+![Katalog](pertemuan-11/screenshots/01-katalog.png)
 
 **Detail produk**
 
-![Detail produk](screenshots/03-detail-produk.png)
+![Detail produk](pertemuan-11/screenshots/04-detail-produk.png)
 
 **Login**
 
-![Login](screenshots/11-login.png)
+![Login](pertemuan-11/screenshots/auth/01-login.png)
 
 **Keranjang**
 
-![Keranjang](screenshots/04-keranjang.png)
+![Keranjang](pertemuan-12/screenshots/07-keranjang.png)
 
 **Checkout**
 
-![Checkout](screenshots/05-checkout.png)
+![Checkout](pertemuan-12/screenshots/08-checkout.png)
 
 **Detail pesanan customer dengan nomor resi**
 
-![Detail pesanan](screenshots/06-detail-pesanan.png)
+![Detail pesanan](pertemuan-12/screenshots/13-customer-resi.png)
 
 **Dashboard admin**
 
-![Dashboard admin](screenshots/07-admin-dashboard.png)
+![Dashboard admin](pertemuan-12/screenshots/01-admin-dashboard.png)
 
 **Verifikasi pembayaran**
 
-![Verifikasi pembayaran](screenshots/08-admin-verifikasi.png)
+![Verifikasi pembayaran](pertemuan-12/screenshots/11-admin-verifikasi.png)
 
 **Manajemen produk**
 
-![Manajemen produk](screenshots/09-admin-produk.png)
+![Manajemen produk](pertemuan-12/screenshots/04-admin-produk.png)
 
 **Laporan penjualan**
 
-![Laporan penjualan](screenshots/10-admin-laporan.png)
+![Laporan penjualan](pertemuan-12/screenshots/17-admin-laporan.png)
 
 **Tampilan HP**
 
 <table>
   <tr>
-    <td align="center"><img src="screenshots/12-mobile-katalog.png" width="250" alt="Katalog di HP"><br>Katalog</td>
-    <td align="center"><img src="screenshots/13-mobile-checkout.png" width="250" alt="Checkout di HP"><br>Checkout</td>
+    <td align="center"><img src="pertemuan-11/screenshots/09-mobile-katalog.png" width="250" alt="Katalog di HP"><br>Katalog</td>
+    <td align="center"><img src="pertemuan-12/screenshots/19-mobile-checkout.png" width="250" alt="Checkout di HP"><br>Checkout</td>
   </tr>
 </table>
 
